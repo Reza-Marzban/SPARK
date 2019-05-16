@@ -1,2 +1,11 @@
 # SPARK
 SPARK jobs both in batch processing and streaming.
+it is consisted of 5 total jobs.
+
+The three first jobs are batch processing on vehicle dataset.
+the two last jobs are collecting tweets using Flume and process them with spark streaming.
+
+Data Source:
+1- https://datasource.kapsarc.org/explore/dataset/us-vehicle-fuel-economy-data-1984-2017/information/?disjunctive.make&disjunctive.model&sort=year&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJiYXJyZWxzMDgiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoieWVhciIsIm1heHBvaW50cyI6MjAwLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiIsInNlcmllc0JyZWFrZG93biI6Im1ha2UiLCJzdGFja2VkIjoiIiwiY29uZmlnIjp7ImRhdGFzZXQiOiJ1cy12ZWhpY2xlLWZ1ZWwtZWNvbm9teS1kYXRhLTE5ODQtMjAxNyIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUubWFrZSI6dHJ1ZSwiZGlzanVuY3RpdmUubW9kZWwiOnRydWUsInNvcnQiOiIteWVhciJ9fX1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D
+
+2- Collecting tweets using Flume.
